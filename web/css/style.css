@@ -1,0 +1,312 @@
+*{
+    margin:0;
+}
+
+body{
+	background-color:#26C281;
+	color:#f5f5f5;
+	text-align:center;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+a{
+	color:#fff;
+	text-decoration:none;
+}
+
+.anchor {
+    padding: 0;
+    outline: 0;
+    color:#EEE;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size:1em;
+    text-transform:uppercase;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+	
+.loginform, .registerform, .logoutform{
+	margin-top:150px;
+	margin-left:auto;
+	margin-right:auto;
+	width:270px;
+}
+
+/*.logoutform{
+	margin-top:250px;
+}*/
+
+.transactionform{
+    margin-top:100px;
+}
+
+	
+.biginput{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width:270px;
+        padding:15px 25px;
+        font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	background: #f5f5f5;
+	border:none;
+	border-radius: 5px;
+	color: #333;
+	font-size: 14px;
+	margin-top:15px;
+}
+
+.mediuminput{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width:180px;
+        padding: 4px 20px;
+        font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	background: #f5f5f5;
+	border:none;
+	border-radius: 3px;
+	color: #333;
+	font-size: 1em;
+	margin-top:15px;
+}
+
+.smallinput{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width:45px;
+        padding: 4px 0px;
+        font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	background: #f5f5f5;
+	border:none;
+	border-radius: 3px;
+	color: #333;
+	font-size: 1em;
+}
+
+
+.smallbutton{
+    padding: 4px 20px;
+    border: 0 ;
+    background-color:#ffdd00;
+    border-radius:3px;
+    color:#333;
+    display:inline-block;
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-size:1em;
+    font-weight:bold;
+    width:auto;
+    cursor: pointer;
+}
+
+.bigbutton{
+        background-color:#ffdd00;
+        border-radius:5px/5px;
+        color:#333;
+        display:inline-block;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	width:270px;
+	text-align:center;
+	text-decoration:none;
+	height:50px;
+	margin-top:20px;
+	margin-bottom:20px;
+	border:none;
+	cursor: pointer;
+}
+
+.bigbutton:active {
+	position:relative;
+	top:1px;
+}
+
+.bigbutton:hover{
+	background-color:#e5bf05;
+}
+
+footer {
+    background-color:#049372;
+    color:#EEE;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+}
+
+.wrap{
+	width:95%;
+	margin:0 auto;
+ }
+ 
+ header{
+    position: absolute; 
+    left: 0;
+    top: 0;
+    height: 100px;
+    width: 100%;
+ }
+ .logo{
+	float:left;
+ }
+ .menu{
+     
+         padding-top: 20px;
+	 float:right;
+	 margin:14px 0;
+ }
+ .menu li {
+	display:inline-block;
+ }
+ .menu li a {
+  	 display:block;
+	 font-size:1em;
+	 text-transform:uppercase;
+	 padding:5px 20px;
+	 color:#EEE;
+	 border-radius:3px;
+ }
+ 
+ .menu li a:hover ,.menu li.active a{
+	 background:#16A085;
+}
+
+body.home li.home a, body.registration li.registration a, body.bets li.bets a, body.account li.account a, body.about li.about a, body.contact li.contact a{
+	 background:#16A085;
+}
+
+body.registration .errorText {
+    padding-top: 50px;
+}
+
+aside{
+    padding-left:50px;
+    float: left;
+}
+.languagebar select {
+    display:block;
+    border: 0 ;
+    background-color: #049372;
+    width: 100px;
+    font-size:1em;
+    color: #FFF;
+    border-radius: 3px;
+    padding: 7px 20px;
+}
+h4 {
+    font-size: 24px;
+    display: inline;
+    padding: 5px 0;
+    font-weight: 300;
+}
+
+.profile{
+    border-radius: 5px;
+    position: relative;
+    margin: 100px 0px;
+    width: 330px;
+    height: auto;
+    background-color: #F4D03F;
+    padding-bottom: 1px;
+    box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.1);
+}
+
+.profile_image_slider {
+    height: 250px;
+    background-image: url(../images/userlogo.jpg);
+    background-size: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.profile_txt_body {
+    padding: 20px 40px;
+    color: #333;
+}
+
+.profile_menu {
+    border-radius: 5px;
+    margin: 100px auto;
+    width: 100px;
+    padding-bottom: 1px;
+}
+
+.errorText {
+    padding: 150px 50px;
+    color: red;
+}
+
+
+
+.bettable {
+    margin: 100px 20px;
+    float: right;
+}
+
+.flat-table {
+    margin-bottom: 20px;
+    border-collapse:collapse;
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+    border: none;
+    border-radius: 3px;
+}
+.flat-table th, .flat-table td {
+    box-shadow: inset 0 -1px rgba(0,0,0,0.25), 
+        inset 0 1px rgba(0,0,0,0.25);
+}
+.flat-table th {
+    font-weight: normal;
+    padding: 1em;
+    color: rgba(0,0,0,0.45);
+    font-size: 0.9em;
+}
+.flat-table td {
+    color: #f7f7f7;
+    padding: 0.7em 1em 0.7em 1.15em;
+    font-size: 0.9em;
+}
+
+.blue {
+     background: #336ca6;
+}
+.blue td:hover {
+    background: rgba(0,0,0,0.19);
+}
+
+.blue .selected{
+    background: rgba(0,0,0,0.19);
+}
+
+.red td:hover {
+    background: rgba(0,0,0,0.1);
+}
+.red {
+    background: #f06060;
+}
+.sky {
+    background: #1E8BC3;
+}
+.sky td:hover {
+    background: rgba(0,0,0,0.1);
+}
+.orange {
+    background: #F5AB35;
+}
+.orange td:hover {
+    background: rgba(0,0,0,0.1);
+}
+.majorText {
+    padding-top: 50px;
+    margin: 100px 50px;
+    font-size: 1.5em;
+}
+
+.mediumText {
+    padding-top: 150px;
+    font-size: 1.5em;
+}
+
+.bigMajorText {
+    margin: 100px 50px;
+    font-size: 2em;
+}
